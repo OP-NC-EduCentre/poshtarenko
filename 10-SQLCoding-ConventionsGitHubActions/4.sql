@@ -1,3 +1,81 @@
+-- Помилки :
+-- L016	1 / 82	
+-- Line is too long.
+-- L036	3 / 1	
+-- Select targets should be on a new line unless there is only one select target.
+-- L011	5 / 11	
+-- Implicit/explicit aliasing of table.
+-- L031	5 / 11	
+-- Avoid aliases in from clauses and join conditions.
+-- L003	6 / 10	
+-- Expected 0 indentations, found more than 2 [compared to line 05]
+-- L011	6 / 31	
+-- Implicit/explicit aliasing of table.
+-- L031	6 / 31	
+-- Avoid aliases in from clauses and join conditions.
+-- L016	40 / 85	
+-- Line is too long.
+-- L016	41 / 91	
+-- Line is too long.
+-- L036	45 / 1	
+-- Select targets should be on a new line unless there is only one select target.
+-- L057	45 / 18	
+-- Do not use special characters in identifiers.
+-- L057	46 / 18	
+-- Do not use special characters in identifiers.
+-- L011	47 / 11	
+-- Implicit/explicit aliasing of table.
+-- L031	47 / 11	
+-- Avoid aliases in from clauses and join conditions.
+-- L003	48 / 10	
+-- Expected 0 indentations, found more than 2 [compared to line 47]
+-- L011	48 / 31	
+-- Implicit/explicit aliasing of table.
+-- L031	48 / 31	
+-- Avoid aliases in from clauses and join conditions.
+-- L016	58 / 89	
+-- Line is too long.
+-- L016	60 / 99	
+-- Line is too long.
+-- L016	61 / 108	
+-- Line is too long.
+-- L016	62 / 114	
+-- Line is too long.
+-- L044	64 / 1	
+-- Query produces an unknown number of result columns.
+-- L027	64 / 8	
+-- Unqualified reference '*' found in select with more than one referenced table/view.
+-- L016	68 / 109	
+-- Line is too long.
+-- L016	69 / 105	
+-- Line is too long.
+-- L016	70 / 105	
+-- Line is too long.
+-- L016	71 / 102	
+-- Line is too long.
+-- L016	72 / 103	
+-- Line is too long.
+-- L016	74 / 85	
+-- Line is too long.
+-- L016	75 / 102	
+-- Line is too long.
+-- L036	78 / 1	
+-- Select targets should be on a new line unless there is only one select target.
+-- L057	78 / 18	
+-- Do not use special characters in identifiers.
+-- L057	79 / 18	
+-- Do not use special characters in identifiers.
+-- L011	80 / 11	
+-- Implicit/explicit aliasing of table.
+-- L031	80 / 11	
+-- Avoid aliases in from clauses and join conditions.
+-- L003	81 / 10	
+-- Expected 0 indentations, found more than 2 [compared to line 80]
+-- L011	81 / 30	
+-- Implicit/explicit aliasing of table.
+-- L031	81 / 30	
+-- Avoid aliases in from clauses and join conditions.
+
 -- 3.1 Для будь-яких двох таблиць створити команду отримання декартового добутку.
 
 SELECT f.name,

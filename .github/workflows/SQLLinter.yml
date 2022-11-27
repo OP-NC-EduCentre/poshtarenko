@@ -18,4 +18,4 @@ jobs:
       # виконнання декількох послідовних команд shell-iнтерпретатором
       run: |
         pip install sqlfluff
-        sqlfluff lint $GITHUB_WORKSPACE/10-SQLCoding-ConventionsGitHubActions/*.sql --dialect oracle
+        sqlfluff lint $GITHUB_WORKSPACE/10-SQLCoding-ConventionsGitHubActions/*-fixed.sql --dialect oracle

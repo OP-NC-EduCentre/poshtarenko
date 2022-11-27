@@ -1,3 +1,29 @@
+-- Помилки :
+-- L016	1 / 90	
+-- Line is too long.
+-- L016	2 / 92	
+-- Line is too long.
+-- L036	5 / 1	
+-- Select targets should be on a new line unless there is only one select target.
+-- L016	18 / 90	
+-- Line is too long.
+-- L036	20 / 1	
+-- Select targets should be on a new line unless there is only one select target.
+-- L016	33 / 86	
+-- Line is too long.
+-- L016	34 / 93	
+-- Line is too long.
+-- L036	37 / 1	
+-- Select targets should be on a new line unless there is only one select target.
+-- L016	52 / 88	
+-- Line is too long.
+-- L036	55 / 1	
+-- Select targets should be on a new line unless there is only one select target.
+-- L016	68 / 93	
+-- Line is too long.
+-- L036	72 / 1	
+-- Select targets should be on a new line unless there is only one select target.-- 
+
 -- 1. Одна з колонок таблиць повинна містити строкове значення з трьома різними буквами у
 -- першій позиції. Створіть запит, який отримає три рядки таблиці з урахуванням трьох букв,
 -- використовуючи оператор LIKE.

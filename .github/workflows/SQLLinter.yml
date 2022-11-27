@@ -1,21 +1,14 @@
 name: SQL Linter
 on:
-  # оброка лише події типу push
-  # для декількох значень використовується дужки, наприклад, [push, pull_request]
   push:
-    # обробка подій лише для окремої гілки
     branches: tasks-of-laboratory-work-10
 jobs:
   SQLLinter:
-    # використання Docker-image iз вказаною версією ос
     runs-on: ubuntu-latest
     steps:
     - name: Checkout Code in Repository
-      # клонування репозиторiя для подальшої роботи з файлами на сервері
-      # в каталозі $GITHUB_WORKSPACE
       uses: "actions/checkout@v3"
     - name: Start SQL Linter
-      # виконнання декількох послідовних команд shell-iнтерпретатором
       run: |
         pip install sqlfluff
         sqlfluff lint $GITHUB_WORKSPACE/10-SQLCoding-ConventionsGitHubActions/*-fixed.sql --dialect oracle

@@ -1,3 +1,36 @@
+-- Помилки :
+-- L016	1 / 82	
+-- Line is too long.
+-- L036	3 / 1	
+-- Select targets should be on a new line unless there is only one select target.
+-- L016	21 / 87	
+-- Line is too long.
+-- L034	23 / 1	
+-- Select wildcards then simple targets before calculations and aggregates.
+-- L036	23 / 1	
+-- Select targets should be on a new line unless there is only one select target.
+-- L016	37 / 83	
+-- Line is too long.
+-- L016	48 / 93	
+-- Line is too long.
+-- L016	49 / 88	
+-- Line is too long.
+-- L016	50 / 89	
+-- Line is too long.
+-- L016	60 / 82	
+-- Line is too long.
+-- L034	63 / 1	
+-- Select wildcards then simple targets before calculations and aggregates.
+-- L036	63 / 1	
+-- Select targets should be on a new line unless there is only one select target.
+-- L016	78 / 87	
+-- Line is too long.
+-- L016	79 / 92	
+-- Line is too long.
+-- L036	82 / 1	
+-- Select targets should be on a new line unless there is only one select target.
+
+
 -- 2.1 Для однієї з таблиць створити команду отримання значень всіх колонок (явно
 -- перерахувати) у всіх рядках.
 SELECT id,

@@ -1,3 +1,41 @@
+-- Помилки :
+-- L016	1 / 88	
+-- Line is too long.
+-- L016	2 / 95	
+-- Line is too long.
+-- L016	3 / 87	
+-- Line is too long.
+-- L016	4 / 92	
+-- Line is too long.
+-- L003	8 / 13	
+-- Expected 0 indentations, found 3 [compared to line 07]
+-- L036	17 / 1	
+-- Select targets should be on a new line unless there is only one select target.
+-- L036	28 / 1	
+-- Select targets should be on a new line unless there is only one select target.
+-- L036	44 / 1	
+-- Select targets should be on a new line unless there is only one select target.
+-- L003	55 / 13	
+-- Expected 0 indentations, found 3 [compared to line 54]
+-- L036	58 / 1	
+-- Select targets should be on a new line unless there is only one select target.
+-- L011	60 / 11	
+-- Implicit/explicit aliasing of table.
+-- L031	60 / 11	
+-- Avoid aliases in from clauses and join conditions.
+-- L003	61 / 10	
+-- Expected 0 indentations, found more than 2 [compared to line 60]
+-- L011	61 / 31	
+-- Implicit/explicit aliasing of table.
+-- L031	61 / 31	
+-- Avoid aliases in from clauses and join conditions.
+-- L036	63 / 1	
+-- Select targets should be on a new line unless there is only one select target.
+-- L016	77 / 89	
+-- Line is too long.
+-- L016	83 / 109	
+-- Line is too long.
+
 -- 1.1 Створити віртуальну таблицю, структура та вміст якої відповідає рішенню завдання
 -- 4.2 з лабораторної роботи No3: для однієї з таблиць створити команду отримання значень усіх
 -- колонок (явно перерахувати) за окремими рядками з урахуванням умови, в якій рядкове

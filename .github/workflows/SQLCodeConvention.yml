@@ -1,4 +1,4 @@
-name: SQL Linter
+name: SQLCodeConvention
 on:
   push:
     branches: tasks-of-laboratory-work-10

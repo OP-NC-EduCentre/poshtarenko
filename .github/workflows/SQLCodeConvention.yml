@@ -1,0 +1,14 @@
+name: SQLCodeConvention
+on:
+  push:
+    branches: tasks-of-laboratory-work-10
+jobs:
+  SQLLinter:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Code in Repository
+      uses: "actions/checkout@v3"
+    - name: Start SQL Linter
+      run: |
+        pip install sqlfluff
+        sqlfluff lint $GITHUB_WORKSPACE/10-SQLCoding-ConventionsGitHubActions/*-fixed.sql --dialect oracle
